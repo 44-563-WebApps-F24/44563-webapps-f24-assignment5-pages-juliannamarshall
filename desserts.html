@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dessert List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="desserts.html">Dessert options</a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link">
+          <a class="nav-link" href="basic.html">Basic.html</a>
+        </li>
+        <li class="nav-link"></li>
+          <a class="nav-link" href="advanced.html">Advanced.html</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1>After dinner hosted by Julianna Marshall</h1>
+  <div class="row">
+    <div class="col-sm-2">M</div>
+    <div class="col-sm-2">A</div>
+    <div class="col-sm-2">R</div>
+    <div class="col-sm-2">S</div>
+    <div class="col-sm-2">H</div>
+    <div class="col-sm-2">A</div>
+  </div>
+  <div class="row">
+    <div class="col-md">Macaroon</div>
+    <div class="col-md">Apple Pie</div>
+    <div class="col-md">Red Velvet Cake</div>
+    <div class="col-md">S'mores</div>
+    <div class="col-md">Halo-Halo</div>
+    <div class="col-md">Angel Food Cake</div>
+  </div>
+  <p>The row that breaks first is the dessert names because they have more characters than just the letters.</p>
+  <div>
+    <img class="img-fluid" src="macaroon.jpg" >
+    <img class="img-fluid" src="apple pie.jpg">
+    <img class="img-fluid" src="red velvet cake.jpg">
+  </div>
+  <div>
+    <img class="img-thumbnail" src="macaroon.jpg" width="200" height="200">
+    <img class="img-thumbnail" src="apple pie.jpg" width="200" height="200">
+    <img class="img-thumbnail" src="red velvet cake.jpg" width="200" height="200">
+  </div>
+  <div>
+    <caption>Caption Element</caption>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr class="table-primary">
+          <th scope="col">Letter</th>
+          <th scope="col">Dessert</th>
+          <th scope="col">City</th>
+          <th scope="col">Insect</th>
+        </tr>
+      </thead>
+        <tr>
+          <th scope="row">M</th>
+          <td>Macaroon</td>
+          <td>Miami</td>
+          <td>Mosquito</td>
+        </tr>
+        <tr>
+          <th scope="row">A</th>
+          <td>Apple Pie</td>
+          <td>Atlanta</td>
+          <td>Ants</td>
+        </tr>
+        <tr>
+          <th scope="row">R</th>
+          <td>Red Velvet Cake</td>
+          <td>Raleigh</td>
+          <td>Rat-Flea</td>
+        </tr>
+        <tr>
+          <th scope="row">S</th>
+          <td>S'mores</td>
+          <td>Seattle</td>
+          <td>Silverfish</td>
+        </tr>
+        <tr>
+          <th scope="row">H</th>
+          <td>Halo-Halo</td>
+          <td>Honolulu</td>
+          <td>Hornet</td>
+        </tr>
+        <tr>
+          <th scope="row">A</th>
+          <td>Angel Food Cake</td>
+          <td>Austin</td>
+          <td>Alderflies</td>
+        </tr>
+        </thead>
+    </table>
+  </div>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-success">M</button>
+      <button type="button" class="btn btn-success">A</button>
+      <button type="button" class="btn btn-success">R</button>
+    </div>
+    <div class="btn-group mr-2" role="group" aria-label="Second group">
+      <button type="button" class="btn btn-warning">S</button>
+      <button type="button" class="btn btn-warning">H</button>
+    </div>
+    <div class="btn-group mr-2" role="group" aria-label="Third group">
+      <button type="button" class="btn btn-danger">A</button>
+    </div>
+  </div>
+  <div class="dropdown">
+      <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">button</button>
+      <div class="dropdown-menu">
+        <li><a class="dropdown-item" href="basic.html">Basic.html</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced.html</a> </li>
+      </div>
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Dessert</label>
+      <input type="text" class="form-control" placeholder="Enter your dessert.">
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">Sign up for newsletter?</label>
+      <input type="checkbox" class="form-check-input">
+    </div>
+    <button class="btn btn-primary">Submit</button>
+  </form>
+</body>
+</html>
